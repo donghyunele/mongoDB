@@ -2,7 +2,7 @@ language: "node_js"
 node_js:
   - "node"
 before_install:
-  - sudo npm install -g mocha
+  - npm install -g mocha
   - npm install
 branches:
   only:
