@@ -17,7 +17,7 @@
     "should": "~0.5.0"
   , "mockery": "~1.1.2" 
   }, "scripts": {
-    "start": "node app.js",
-     "test": "mocha"
+    "start": "node --harmony app.js",
+    "test": "mocha"
   }
 }
