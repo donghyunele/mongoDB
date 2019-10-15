@@ -1,3 +1,7 @@
 var assert = require('assert')
 
-assert.equal(1, 1);
+describe('Test 1', () => {
+  it('basic test', () => {
+    assert.equal(true, true);
+  })
+})
