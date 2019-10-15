@@ -3,6 +3,7 @@ node_js:
   - "node"
 before_install:
   - npm install mocha -g
+  - npm install
 branches:
   only:
     - master

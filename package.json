@@ -13,10 +13,12 @@
   "dependencies": {
     "ejs": "^2.7.1",
     "express": "^4.17.1"
-  }, "devDependencies": {
+  }, 
+  "devDependencies": {
     "should": "~0.5.0"
   , "mockery": "~1.1.2" 
-  }, "scripts": {
+  }, 
+  "scripts": {
     "start": "node app.js",
     "test": "mocha"
   }
