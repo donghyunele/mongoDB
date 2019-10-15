@@ -1,5 +1,5 @@
 {
-  "name": "mongoDB",
+  "name": "mongo",
   "version": "1.0.0",
   "description": "---",
   "main": "app.js",
@@ -14,12 +14,12 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1"
   }, 
-  "devDependencies": {
-    "should": "~0.5.0"
-  , "mockery": "~1.1.2" 
-  }, 
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
+  },
+  "devDependencies": {
+    "should": "~0.5.0"
+  , "mockery": "~1.1.2" 
   }
 }
