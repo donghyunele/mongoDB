@@ -16,7 +16,7 @@
   }, 
   "scripts": {
     "start": "node app.js",
-    "test": "mocha -w test.js"
+    "test": "mocha"
   },
   "devDependencies": {
     "should": "~0.5.0"

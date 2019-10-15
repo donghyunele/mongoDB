@@ -1,7 +1,7 @@
 var assert = require('assert')
 
 describe('Test 1', () => {
-  it('basic test', () => {
+  return it('basic test', () => {
     assert.equal(true, true);
   })
 })
